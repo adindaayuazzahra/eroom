@@ -1,0 +1,316 @@
+/* Importing fonts from Google */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:300,400,500,600,700,800|Quicksand:300,400,500,700|Poppins=300,400,500,600,700,800,900");
+
+h1, h2, h3, h4, h5, h6 {
+    color: #383838;
+    font-family: "Lato", sans-serif;
+    margin-top: 0;
+  }
+
+  h1 {
+    line-height: 1;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  h6 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  p {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  a, button {
+    color: inherit;
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a, button, img, input, span {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+  /* *:focus {
+    outline: none !important;
+  }
+  
+  a:focus {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #29B9F2;
+  } */
+  
+  button, input[type="submit"] {
+    cursor: pointer;
+  }
+  
+/* body {
+    background: #eee;
+    font-family: 'Ubuntu', sans-serif
+} */
+
+.box {
+    position: relative;
+    width: 100%;
+    /* padding-right: 10px;
+    padding-left: 10px */
+}
+
+.our-services {
+    /* margin-top: 75px; */
+    /* padding-bottom: 30px; */
+    padding: 0 20px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.speedup:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.settings:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.privacy:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+
+/* card homepage */
+
+body.login {
+    padding-top: 9%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background: #ecf0f3;
+    max-height: 100vh;
+}
+
+.wrapper {
+    max-width: 400px;
+    min-height: 500px;
+    margin: auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.logo_login {
+    width: 78%;
+
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow:
+        /* 0px 0px 3px #5f5f5f, */
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+
+}
+
+.logo_login img {
+    width: 100%;
+    /* height: 80px; */
+    object-fit: cover;
+    /* border-radius: 40px;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff; */
+
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper .form-field .fas {
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+    background-color: #039BE5;
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4;
+}
+
+.wrapper a:hover {
+    color: #039BE5;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+@media(max-width: 490px) {
+    .kartu-formulir {
+        margin-top: 0px;
+        
+    }
+}
+
+
+/* stepper form */
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.step-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--prm-gray);
+  transition: .4s;
+}
+.step-button[aria-expanded="true"] {
+  width: 60px;
+  height: 60px;
+  background-color: var(--prm-color);
+  color: #fff;
+}
+.done {
+  background-color: var(--prm-color);
+  color: #fff;
+}
+.step-item {
+  z-index: 10;
+  text-align: center;
+}
+#progress {
+-webkit-appearance:none;
+  position: absolute;
+  width: 95%;
+  z-index: 5;
+  height: 10px;
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+  background-color: var(--prm-color);
+  transition: .5s ease;
+}
+#progress::-webkit-progress-bar {
+  background-color: var(--prm-gray);
+
+}
+
